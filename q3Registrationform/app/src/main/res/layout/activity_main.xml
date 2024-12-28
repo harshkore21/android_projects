@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="405dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:hint="Name"
+        android:inputType="text"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="411dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/etName"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <EditText
+    android:id="@+id/etEmail"
+    android:layout_width="411dp"
+    android:layout_height="51dp"
+    android:layout_below="@+id/etLastName"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="text"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="410dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="319dp" />
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddress"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/BSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMobile"
+        android:layout_marginTop="24dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:layout_below="@+id/BSubmit"
+    android:layout_marginTop="12dp" />
+    <TextView
+        android:id="@+id/tvLastName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvName"
+        android:layout_marginTop="14dp" />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/tvLastName"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/tvEmail"
+        android:layout_marginTop="25dp" />
+    <TextView
+        android:id="@+id/tvMobile"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@+id/tvAddress"
+        android:layout_marginTop="23dp" />
+</RelativeLayout>

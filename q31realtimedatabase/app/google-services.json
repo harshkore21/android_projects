@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202170289467",
+    "project_id": "q31-realtime-database",
+    "storage_bucket": "q31-realtime-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202170289467:android:0d19dd0dc5924b46817b1e",
+        "android_client_info": {
+          "package_name": "com.example.q31realtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdTY1SNI9GC2aHdPW-lMKuYEeCdo3YsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

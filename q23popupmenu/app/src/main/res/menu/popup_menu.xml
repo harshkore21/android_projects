@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Java">Java</item>
+        <item android:title="Kotlin">Kotlin</item>
+    <item android:title="Android">Android</item>
+    <item android:title="React Native">React native</item>
+</menu>

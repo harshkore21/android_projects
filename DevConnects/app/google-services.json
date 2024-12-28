@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520903230354",
+    "project_id": "devconnects-b9dfc",
+    "storage_bucket": "devconnects-b9dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520903230354:android:48d5c4f5f4722053bd774b",
+        "android_client_info": {
+          "package_name": "com.example.devconnects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmas6GZCwA62H_7rHy4BvNFJBjXHerD44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
